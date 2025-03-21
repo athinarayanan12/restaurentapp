@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="signup.css"/>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="images/logo.avif" alt="logo" class="logo">
+        </div>
+    </nav>
+    <div class="signup-body">
+        <form action="">
+            <h2>Let us know about you</h2>
+            <label for="name">Full Name :</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+            <label for="email">Email :</label>
+            <input id="email" type="text" placeholder="Enter your email address" required>
+            <label for="mobile">Mobile number :</label>
+            <input id="mobile" type="text" placeholder="Enter your mobile number" required>
+            <button id="signup-btn" onclick="signup()">Signup</button>
+            <p>Already our customer?<a href="signin.html">Login</a></p>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

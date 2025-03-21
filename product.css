@@ -1,0 +1,64 @@
+.product-details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-grow: 1;
+   
+}
+.product-detail-card{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: 70%;
+}
+#product-image{
+    width: 48%;
+    height: 100%;
+    background-image: url('./images/food.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+.product-details{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+}
+@media screen and (max-width:1200px) {
+    .product-detail-card{
+        width: 70%;
+    }
+}@media screen and (max-width:1000px) {
+    .product-detail-card{
+        width: 80%;
+    }
+}
+@media screen and (max-width:800px) {
+    .product-detail-card{
+        width: 90%;
+    }
+}
+.star{
+    color: gold;
+}
+.rating span{
+    color: #333;
+}
+#product-description{
+    font-size: large;
+}
+#product-price{
+    color: orangered;
+    font-size:larger;
+}
+.product-btn button{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s,background-color 0.3s;
+}

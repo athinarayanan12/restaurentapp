@@ -1,0 +1,58 @@
+ [
+      {
+        "id": 1,
+        "name": "Margherita Pizza",
+        "description": "Classic Margherita pizza with fresh basil, mozzarella, and tomato sauce.",
+        "price": 100,
+        "image": "images/pizza.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Burger",
+        "description": "Grilled chicken patty with lettuce, tomato, and house special sauce.",
+        "price": 150,
+        "image": "images/chickenburger.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Pasta Alfredo",
+        "description": "Creamy Alfredo pasta with parmesan cheese and grilled chicken.",
+        "price": 59,
+        "image": "images/.jpg"
+      },
+      {
+        "id": 4,
+        "name": "French Fries",
+        "description": "Crispy golden fries served with ketchup and mayo.",
+        "price": 3.49,
+        "image": "https://example.com/images/french_fries.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Chocolate Brownie",
+        "description": "Delicious homemade brownie with chocolate sauce.",
+        "price": 4.99,
+        "image": "https://example.com/images/chocolate_brownie.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Caesar Salad",
+        "description": "Fresh romaine lettuce with parmesan cheese, croutons, and Caesar dressing.",
+        "price": 6.99,
+        "image": "https://example.com/images/caesar_salad.jpg"
+      },
+      {
+        "id": 7,
+        "name": "Grilled Chicken Sandwich",
+        "description": "Grilled chicken with cheese, lettuce, tomato, and garlic aioli sauce.",
+        "price": 7.99,
+        "image": "https://example.com/images/grilled_chicken_sandwich.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Strawberry Milkshake",
+        "description": "Thick and creamy strawberry milkshake topped with whipped cream.",
+        "price": 4.49,
+        "image": "https://example.com/images/strawberry_milkshake.jpg"
+      }
+    ]
